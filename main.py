@@ -128,7 +128,7 @@ def get_text_from_urls(urls, selectors):
 
 # txtファイルにする
 def save_text_to_file(text):
-    with io.open("articles_bbc.txt", "w", encoding="utf-8") as f:
+    with io.open("text.txt", "w", encoding="utf-8") as f:
         f.write(text)
 
 
